@@ -1,0 +1,142 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+IDI_ICON2               ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 585, 341
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "1DNF"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "打开PVF",IDC_BUTTON1,99,1,42,14
+    PUSHBUTTON      "打开商城",IDC_BUTTON2,143,1,45,14
+    EDITTEXT        IDC_EDIT1,190,1,273,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查找路径",IDC_BUTTON3,472,0,42,14
+    PUSHBUTTON      "打开路径",IDC_BUTTON4,519,0,63,14
+    CONTROL         "",IDC_TREE1,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,0,23,190,318
+    CONTROL         "",IDC_RICHEDIT21,"RichEdit20A",ES_AUTOHSCROLL | WS_BORDER | WS_TABSTOP,190,23,395,283
+    PUSHBUTTON      "编译",IDC_BUTTON5,194,312,50,14
+    PUSHBUTTON      "另存PVF",IDC_BUTTON6,251,312,50,14
+    PUSHBUTTON      "导出",IDC_BUTTON7,378,312,36,14
+    PUSHBUTTON      "导入",IDC_BUTTON8,427,312,36,14
+    CONTROL         "加密文件",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,485,312,50,13
+    LTEXT           "",IDC_STATIC1,4,1,85,8
+    LTEXT           "",IDC_STATIC2,304,330,17,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 219, 89
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,9,23,124,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,9,63,62,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查找",IDC_BUTTON1,151,2,50,14
+    PUSHBUTTON      "替换",IDC_BUTTON2,151,22,50,14
+    PUSHBUTTON      "全换",IDC_BUTTON3,151,42,50,14
+    CONTROL         "向上",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,42,52,14
+    CONTROL         "区分大小写",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,81,44,52,10
+    EDITTEXT        IDC_EDIT3,10,2,124,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "转到",IDC_BUTTON4,79,63,52,14
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "装备1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,5,3,28,10
+    CONTROL         "道具1",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,42,3,28,10
+    CONTROL         "NPC1",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,78,3,28,10
+    CONTROL         "商店1",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,112,3,28,10
+    EDITTEXT        IDC_EDIT1,148,3,108,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON1,264,3,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
